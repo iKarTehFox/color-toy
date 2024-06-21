@@ -1,0 +1,13 @@
+html {
+    user-select: none;
+    overflow: hidden;
+}
+
+.allow-selection {
+    user-select: text;
+}
+
+#textDisplay {
+    word-wrap: break-word;
+    font-size: 15px;
+}
