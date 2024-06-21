@@ -1,6 +1,8 @@
 # Color Toy by iKarTehFox
 > **A color playground for testing background and text color visibility!**
 
+**Website:** [View in your browser!](https://color-toy.pages.dev)
+
 ## How to run
 1. Clone the repository and `cd` into it.
 ```bash
