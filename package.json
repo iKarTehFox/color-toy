@@ -1,0 +1,19 @@
+{
+  "name": "color-toy",
+  "version": "1.0.0",
+  "description": "A color playground for testing background and text color visibility!",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iKarTehFox/color-toy.git"
+  },
+  "author": "iKarTehFox",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/iKarTehFox/color-toy/issues"
+  },
+  "homepage": "https://github.com/iKarTehFox/color-toy#readme"
+}
