@@ -4,14 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Color Toy by iKarTehFox</title>
-        <!-- CSS -->
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/global.css">
-        <!-- JS -->
-        <script src="./js/bootstrap.bundle.min.js"></script>
-        <script src="./js/global.js" defer></script>
         <!-- Favicon -->
-        <link rel="icon" type="image/png" id="favicon" href="./favicon.png">
+        <link rel="icon" type="image/png" id="favicon" href="./resources/favicon.png">
     </head>
     <body style="background-color: #B0B0B0;">
         <span id="textDisplay"></span>
@@ -28,7 +22,10 @@
                     <div class="mb-1 mt-2">Text size: <input type="range" name="text-color-input" id="textSizeRange" value="15" step="1" min="10" max="75"></div>
                     <div>Text RGB: <strong><span class="allow-selection" id="textColorLabelRgb">0,0,0</span></strong></div>
                     <div>Text Hex: <strong><span class="allow-selection" id="textColorLabelHex">#000000</span></strong></div>
-                    <button type="button" class="btn btn-outline-primary mt-2" id="menuHideBtn">Hide menu</button>
+                    <div class="d-flex mt-2">
+                        <button type="button" class="btn btn-outline-primary" id="menuHideBtn">Hide menu</button>
+                        <button type="button" class="btn btn-outline-secondary ms-1" id="toggleFullscreenBtn">Toggle Fullscreen</button>
+                    </div>
                     <p style="font-size: smaller; font-weight: lighter;">Double click screen to make menu visible again</p>
                     <span id="credit">
                         Developed by iKarTehFox. Made possible with other open-source projects.<br>This app is licenced under the <a href="https://github.com/iKarTehFox/color-toy/blob/main/LICENSE" target="_blank">Mozilla Public License 2.0 (MPL-2.0)</a>.
